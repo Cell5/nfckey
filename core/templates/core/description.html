@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Near-field communication - Description{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" type="text/css" href="{% static 'core/css/style.css' %}">
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript" src="{% static 'core/js/style.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+<div class="radius8 shadow-lg p-3 mb-5 text-justify container jumbotron">
+    <div>
+        <h1 class="display-4">About NFC Key</h1>
+        <p class="lead">Near-field communication (NFC) is a set of communication protocols that enable two electronic devices, one of which is usually a portable device such as a smartphone, to establish communication by bringing them within 4 cm (1.6 in) of each other.</p>
+        <hr class="my-3">
+        <p>NFC devices are used in contactless payment systems, similar to those used in credit cards and electronic ticket smartcards and allow mobile payment to replace/supplement these systems. This is sometimes referred to as NFC/CTLS (Contactless) or CTLS NFC. NFC is used for social networking, for sharing contacts, photos, videos or files. NFC-enabled devices can act as electronic identity documents and keycards. NFC offers a low-speed connection with simple setup that can be used to bootstrap more capable wireless connections.</p>
+    </div>
+    <br>
+
+    <div class="row">
+        <div class="col-sm-8">
+            <h2>Overview</h2>
+            <hr class="my-2">
+            <p>Similar ideas in advertising and industrial applications were not generally successful commercially, outpaced by technologies such as barcodes and UHF RFID tags. NFC protocols established a generally supported standard. When one of the connected devices has Internet connectivity, the other can exchange data with online services.
+                <br><br>
+                NFC-enabled portable devices can be provided with application software, for example, to read electronic tags or make payments when connected to an NFC-compliant apparatus. Earlier close-range communication used technology that was proprietary to the manufacturer for applications such as stock ticket, access control and payment readers.
+                <br><br>
+                Like other "proximity card" technologies, NFC employs electromagnetic induction between two loop antennas when NFC-enabled devices—for example a smartphone and a printer—exchange information, operating within the globally available unlicensed radio frequency ISM band of 13.56 MHz on ISO/IEC 18000-3 air interface at rates ranging from 106 to 424 kbit/s.</p>
+            <p>Each full NFC device can work in three modes:</p>
+            <dl><dt>NFC card emulation</dt>
+                <dd>Enables NFC-enabled devices such as smartphones to act like smart cards, allowing users to perform transactions such as payment or ticketing.</dd>
+                <dt>NFC reader/writer</dt>
+                <dd>Enables NFC-enabled devices to read information stored on inexpensive NFC tags embedded in labels or smart posters.</dd>
+                <dt>NFC peer-to-peer</dt>
+                <dd>Enables two NFC-enabled devices to communicate with each other to exchange information in an adhoc fashion.</dd>
+            </dl>
+        </div>
+        <div class="justify-content-around">
+            <div class="radius8 card" style="width: 19rem;">
+                <img class="radius8 card-img-top" src="{% static 'core/img/nfc_chip.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                <p class="card-text">The Secure Element chip. This is an NFC chip that contains data such as the SEID (Secure Element Identifier) for secure transactions. This chip is commonly found in smartphones and other NFC enabled devices</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <h2>History</h2>
+    <hr class="my-2">
+    <p>NFC is rooted in radio-frequency identification technology (known as RFID) which allows compatible hardware to both supply power to and communicate with an otherwise unpowered and passive electronic tag using radio waves. This is used for identification, authentication and tracking.</p>
+    <div>
+        <ul>
+            <li>1983 The first patent to be associated with the abbreviation "RFID" was granted to Charles Walton</li>
+            <li>1997 Early form patented and first used in Star Wars character toys for Hasbro. The patent was originally held by Andrew White and Marc Borrett at Innovision Research and Technology (Patent WO9723060). The device allowed data communication between two units in close proximity</li>
+            <li>2002 Sony and Philips agreed to establish a technology specification and created a technical outline on March 25, 2002</li>
+            <li>2003 NFC was approved as an ISO/IEC standard on December 8, and later as an ECMA standard</li>
+            <li>2004 Nokia, Philips and Sony established the NFC Forum</li>
+            <li>2004 Nokia launch NFC shell add-on for Nokia 5140 and later Nokia 3220 models, to be shipped in 2005</li>
+            <li>2006 Initial specifications for NFC Tags</li>
+            <li>2006 Specification for "SmartPoster" records</li>
+            <li>2007 Innovision’s NFC tags used in the first consumer trial in the UK, in the Nokia 6131 handset</li>
+            <li>2009 In January, NFC Forum released Peer-to-Peer standards to transfer contacts, URLs, initiate Bluetooth, etc.</li>
+            <li>2010 Innovision released a suite of designs and patents for low cost, mass-market mobile phones and other devices</li>
+            <li>2010 Nokia C7: First Symbian NFC phone announced. NFC feature was enabled by software update in 2011</li>
+            <li>2010 Samsung Nexus S: First Android NFC phone shown</li>
+            <li>2010 Nice, France launches the "Nice City of contactless mobile" project, providing inhabitants with NFC mobile phones and bank cards, and a "bouquet of services" covering transportation, tourism and student's services</li>
+            <li>2011 Tapit Media launches in Sydney, Australia as the first specialized NFC marketing company</li>
+            <li>2011 Google I/O "How to NFC" demonstrates NFC to initiate a game and to share a contact, URL, app or video</li>
+            <li>2011 NFC support becomes part of the Symbian mobile operating system with the release of Symbian Anna version</li>
+            <li>2011 Research In Motion devices are the first ones certified by MasterCard Worldwide for their PayPass service</li>
+            <li>2012 UK restaurant chain EAT. and Everything Everywhere (Orange Mobile Network Operator), partner on the UK's first nationwide NFC-enabled smartposter campaign. A specially created mobile phone app is triggered when the NFC-enabled mobile phone comes into contact with the smartposter</li>
+            <li>2012 Sony introduced NFC "Smart Tags" to change modes and profiles on a Sony smartphone at close range, included with the Sony Xperia P Smartphone released the same year</li>
+            <li>2013 Samsung and VISA announce their partnership to develop mobile payments</li>
+            <li>2013 IBM scientists, in an effort to curb fraud and security breaches, develop an NFC-based mobile authentication security technology. This technology works on similar principles to dual-factor authentication security</li>
+            <li>2014 AT&T, Verizon and T-Mobile released Softcard (formally ISIS mobile wallet). It runs on NFC-enabled Android phones and iPhone 4 and iPhone 5 when an external NFC case is attached. The technology was purchased by Google and the service ended on March 31, 2015</li>
+            <li>2014 Apple introduced Apple Pay for NFC-enabled mobile payment on iPhone 6 and 6 Plus,[34] and the Apple Watch, which was released on April 24, 2015</li>
+            <li>In November 2015, Swatch and Visa Inc. announced a partnership to enable NFC financial transactions using the "Swatch Bellamy" wristwatch. The system is currently online in Asia thanks to a partnership with China UnionPay and Bank of Communications. The partnership will bring the technology to the US, Brazil, and Switzerland</li>
+            <li>November 2015, Google’s Android Pay function was launched, a direct rival to Apple Pay, and it started rolling out across the US</li>
+        </ul>
+    </div>
+</div>
+
+{% endblock %}

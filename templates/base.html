@@ -1,0 +1,61 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+
+    <link rel="shortcut icon" type="image/png" href="{% static 'core/img/favicon.ico' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap/css/bootstrap.min.css' %}">
+    {% block styles %}{% endblock %}
+
+    <script type="text/javascript" src="{% static 'jquery/jquery-3.3.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+    {% block scripts %}{% endblock %}
+</head>
+<body style="background-color: #ffffff; background-image:url('{% static 'core/img/bg.jpg' %}'); background-attachment: fixed; background-repeat: no-repeat;">
+<div>
+    {% block nav %}
+        <nav class="shadow-lg rounded container navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/">NFC Key</a>
+            <button class="align-self-center navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="align-self-center navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="{% url 'description' %}">About</a>
+
+                    <!-- Show nav links if user is not logged -->
+                    {% if user.is_authenticated %}
+                        <a class="nav-item nav-link" href="{% url 'control_panel' %}">Control Panel</a>
+                        <a class="nav-item nav-link" href="/admin">Admin</a>
+                        <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                    {% else %}
+                        <a class="nav-item nav-link" href="{% url 'login' %}">Login to Control Panel</a>
+                    {% endif %}
+                    <!--<a class="nav-item nav-link disabled" href="#">Reserved</a>-->
+                </div>
+            </div>
+            <div class="align-self-end">
+                {% block show_logged_user %}
+                <!-- Show Logged User Name -->
+                {% if user.is_authenticated %}
+                <h6 class="text-capitalize"><i>Welcome, <b>{{ user.username }}!</b></i></h6>
+                {% else %}
+                <h6><i>You are not authenticated</i></h6>
+                {% endif %}
+                {% endblock %}
+            </div>
+        </nav>
+    {% endblock %}
+</div>
+
+    {% block content %}{% endblock %}
+</body>
+    {% block footer %}
+        <footer id="footer" class="container navbar navbar-default navbar-static-bottom">
+            <p>© 2018 Copyright. Performed by Isupov Pavel for NFC Key™ &nbsp; <a href="#" target="_self" rel="nofollow">Terms of Service</a></p>
+        </footer>
+    {% endblock %}
+</html>

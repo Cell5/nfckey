@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/nfckey.iml" filepath="$PROJECT_DIR$/.idea/nfckey.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nfckey_bk/.idea/nfckey_bk.iml" filepath="$PROJECT_DIR$/../nfckey_bk/.idea/nfckey_bk.iml" />
+    </modules>
+  </component>
+</project>
