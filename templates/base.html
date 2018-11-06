@@ -14,6 +14,7 @@
     {% block scripts %}{% endblock %}
 </head>
 <body style="background-color: #ffffff; background-image:url('{% static 'core/img/bg.jpg' %}'); background-attachment: fixed; background-repeat: no-repeat;">
+<br>
 <div>
     {% block nav %}
         <nav class="shadow-lg rounded container navbar navbar-expand-lg navbar-light bg-light">
@@ -41,7 +42,7 @@
                 {% block show_logged_user %}
                 <!-- Show Logged User Name -->
                 {% if user.is_authenticated %}
-                <h6 class="text-capitalize"><i>Welcome, <b>{{ user.username }}!</b></i></h6>
+                <h6 class="text-capitalize"><i>Welcome, <a href="{% url 'profile' %}"><b>{{ user.username }}!</b></a></i></h6>
                 {% else %}
                 <h6><i>You are not authenticated</i></h6>
                 {% endif %}
