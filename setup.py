@@ -19,7 +19,8 @@ setup(
 	url='https://changeme.com',
 	
 	# Requirements
-	python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
+	# python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
+	python_requires='>=3.7',
 	
 	# Package info
 	packages=find_packages(),
