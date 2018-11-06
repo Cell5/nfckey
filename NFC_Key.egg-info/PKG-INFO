@@ -51,4 +51,4 @@ Description: ===========
         written `like this <http://www.example.com/foo/bar>`_.
 Keywords: NFC
 Platform: UNKNOWN
-Requires-Python: >=3.7
+Requires-Python: >=3.6

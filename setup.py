@@ -1,4 +1,5 @@
-﻿from setuptools import find_packages, setup
+﻿import os
+from setuptools import find_packages, setup
 
 VERSION = '0.1.0'
 REQUIRED_PYTHON = (3, 6)
@@ -19,10 +20,11 @@ setup(
 	url='https://changeme.com',
 	
 	# Requirements
-	# python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
-	python_requires='>=3.7',
+	python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
 	
 	# Package info
 	packages=find_packages(),
+	
+	# Additional options
 	
 )
