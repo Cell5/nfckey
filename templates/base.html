@@ -29,8 +29,8 @@
 
                     <!-- Show nav links if user is not logged -->
                     {% if user.is_authenticated %}
-                        <a class="nav-item nav-link" href="{% url 'control_panel' %}">Control Panel</a>
-                        <a class="nav-item nav-link" href="/admin">Admin</a>
+                        <!--<a class="nav-item nav-link" href="{% url 'control_panel' %}">Control Panel</a>-->
+                        <a class="nav-item nav-link" href="/admin">Control Panel</a>
                         <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
                     {% else %}
                         <a class="nav-item nav-link" href="{% url 'login' %}">Login to Control Panel</a>
