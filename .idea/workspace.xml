@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6620ec33-2426-4e38-8feb-01d944f24693" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/exrid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/exrid.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/core/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/core/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/core/js/style.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nfckey/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nfckey/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/registration/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/login.html" afterDir="false" />
-    </list>
+    <list default="true" id="6620ec33-2426-4e38-8feb-01d944f24693" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +12,7 @@
     <session id="-1699461173">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -78,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+              <caret line="60" selection-start-line="60" selection-end-line="61" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -225,26 +216,6 @@
               <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
               <item name="nfckey" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
-              <item name="NFC_Key.egg-info" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
-              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -334,8 +305,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
-    <editor active="true" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19803064" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -597,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="60" column="58" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="58" />
+          <caret line="60" selection-start-line="60" selection-end-line="61" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
