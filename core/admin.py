@@ -45,4 +45,4 @@ admin.site.register(Receiver, ReceiverAdmin)
 admin.site.register(SecurityGroup)
 admin.site.register(Employee, EmployeeAdmin)
 
-admin.site.site_header = 'NFC Key Administration'
+admin.site.site_header = 'NFC Key Control Panel'
