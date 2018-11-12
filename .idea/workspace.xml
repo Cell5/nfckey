@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6620ec33-2426-4e38-8feb-01d944f24693" name="Default Changelist" comment="" />
+    <list default="true" id="6620ec33-2426-4e38-8feb-01d944f24693" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/exrid.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/exrid.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nfckey/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/nfckey/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +36,7 @@
           <entry key="js" value="6" />
           <entry key="map" value="1" />
           <entry key="py" value="154" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -40,7 +45,7 @@
           <entry key="HTML" value="51" />
           <entry key="Image" value="1" />
           <entry key="JavaScript" value="6" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="154" />
         </counts>
       </usages-collector>
@@ -50,7 +55,7 @@
           <entry key="css" value="926" />
           <entry key="html" value="4345" />
           <entry key="js" value="5" />
-          <entry key="py" value="4945" />
+          <entry key="py" value="4948" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -58,14 +63,14 @@
           <entry key="CSS" value="926" />
           <entry key="HTML" value="4345" />
           <entry key="JavaScript" value="5" />
-          <entry key="Python" value="5126" />
+          <entry key="Python" value="5129" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="518">
@@ -73,6 +78,15 @@
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -92,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nfckey/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+            <state relative-caret-position="459">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -190,9 +204,10 @@
         <option value="$PROJECT_DIR$/core/templates/admin/base_site.html" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/core/static/core/css/style.css" />
-        <option value="$PROJECT_DIR$/nfckey/settings.py" />
         <option value="$PROJECT_DIR$/core/admin.py" />
         <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/nfckey/settings.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -216,6 +231,16 @@
             <path>
               <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
               <item name="nfckey" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
+              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nfckey" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nfckey" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -307,8 +332,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="997" y="5" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.202407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.202407" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -319,7 +345,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32858709" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4995366" visible="true" weight="0.25301206" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4995366" visible="true" weight="0.25301206" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50046337" side_tool="true" weight="0.25301206" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32858709" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -333,7 +359,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../nfckey_bk/core/models.py" />
     <entry file="file://$PROJECT_DIR$/../nfckey_bk/core/tests.py" />
     <entry file="file://$PROJECT_DIR$/../nfckey_bk/core/views.py" />
     <entry file="file://$PROJECT_DIR$/../nfckey_bk/nfckey/wsgi.py" />
@@ -495,13 +520,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nfckey/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/static/core/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -534,6 +552,20 @@
             <element signature="e#0#32#0" expanded="true" />
             <marker date="1541669365554" expanded="true" signature="224:1034" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfckey/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
