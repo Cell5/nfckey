@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/nfckey.iml" filepath="$PROJECT_DIR$/.idea/nfckey.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../nfckey_bk/.idea/nfckey_bk.iml" filepath="$PROJECT_DIR$/../nfckey_bk/.idea/nfckey_bk.iml" />
     </modules>
   </component>
 </project>
