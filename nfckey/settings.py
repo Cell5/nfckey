@@ -25,7 +25,7 @@ SECRET_KEY = 'mi3qfqy7m(-fwib!$&u+4pgf&(x=0@+8)+8w3h+d_w)s_sz(04'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['cell5.pythonanywhere.com']
+ALLOWED_HOSTS = ['cell5.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -129,6 +129,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# STATIC_ROOT = '/home/Cell5/nfckey/nfckey/static'
 
 LOGIN_REDIRECT_URL = 'home'
 LOGOUT_REDIRECT_URL = 'home'
